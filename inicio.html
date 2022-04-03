@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="black">
+
+       <div class="container">
+
+    <div style="height: 140px; max-width: 138px; min-width: 140px;">
+
+        <div class="jogador" style="color: white;">
+            <h4 id='jog1'></h4>
+            
+            <label>
+            
+                
+            </label>
+    
+            <label id="jogador-Selecionado">X</label>
+        </div>
+
+    </div>
+
+    <div>
+
+        <h1 style="color: white;">Jogo da Velha</h1>
+
+        <div>
+            <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        </div>
+
+        <div>
+            <div id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        </div>
+
+        <div>
+            <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        </div>
+
+    </div>
+
+            <div class="jogador" style="color: white; height: 140px; max-width: 138px; min-width: 140px;">
+                
+                <h4 id="jog2"></h4>
+                <label>
+                </label>
+        
+                <label id="jogador-Selecionado1">X</label>
+            </div>
+    
+        </div>
+    
+    
+</body>
+<script src="./js.js"></script>
+
+</html>
